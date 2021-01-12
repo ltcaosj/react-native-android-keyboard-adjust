@@ -1,4 +1,4 @@
-package lightkits.androidkeyboardadjust;
+package kailash.mobile.androidkeyboardadjust;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -10,10 +10,10 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.bridge.JavaScriptModule;
 
-public class LKAndroidKeyboardAdjustPackage implements ReactPackage {
+public class KMAndroidKeyboardAdjustPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-        return Arrays.<NativeModule>asList(new LKAndroidKeyboardAdjustModule(reactContext));
+        return Arrays.<NativeModule>asList(new KMAndroidKeyboardAdjustModule(reactContext));
     }
 
     @Override

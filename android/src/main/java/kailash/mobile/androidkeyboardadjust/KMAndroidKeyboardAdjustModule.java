@@ -1,4 +1,4 @@
-package lightkits.androidkeyboardadjust;
+package kailash.mobile.androidkeyboardadjust;
 
 import android.app.Activity;
 import android.view.WindowManager;
@@ -8,7 +8,7 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
 
-public class LKAndroidKeyboardAdjustModule extends ReactContextBaseJavaModule {
+public class KMAndroidKeyboardAdjustModule extends ReactContextBaseJavaModule {
 
     private final ReactApplicationContext reactContext;
 
@@ -19,7 +19,7 @@ public class LKAndroidKeyboardAdjustModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "LKAndroidKeyboardAdjust";
+        return "KMAndroidKeyboardAdjust";
     }
 
       @ReactMethod
