@@ -1,5 +1,5 @@
-import { NativeModules } from 'react-native';
+import {NativeModules} from 'react-native';
 
-const { LKAndroidKeyboardAdjust } = NativeModules;
+const {MKAndroidKeyboardAdjust} = NativeModules;
 
-export default LKAndroidKeyboardAdjust;
+export default MKAndroidKeyboardAdjust;

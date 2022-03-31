@@ -1,5 +1,5 @@
 {
-  "name": "@react-native-lightkits/android-keyboard-adjust",
+  "name": "@kailash-m/android-keyboard-adjust",
   "title": "React Native Android Keyboard Adjust",
   "version": "1.0.0",
   "description": "TODO",
@@ -16,8 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ltcaosj/react-native-android-keyboard-adjust.git",
-    "baseUrl": "https://github.com/ltcaosj/react-native-android-keyboard-adjust"
+    "url": "git+https://github.com/kailash-js/react-native-android-keyboard-adjust.git",
+    "baseUrl": "https://github.com/kailash-js/react-native-android-keyboard-adjust"
   },
   "keywords": [
     "react-native"
@@ -30,13 +30,8 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "^16.9.0",
+    "react": "^16.13.1",
     "react-native": ">=0.62.2"
   },
-  "devDependencies": {
-    "react": "^16.9.0",
-    "react-native": "^0.62.2",
-    "@react-native-community/eslint-config": "^0.0.5",
-    "eslint": "^6.5.1"
-  }
+  "devDependencies": {}
 }
